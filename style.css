@@ -1,0 +1,45 @@
+body {
+  font-size: 16px;
+}
+
+.container {
+  background-color: darkgray;
+  border: 2px solid blue;
+  height: 400px;
+}
+
+.container > div {
+  font-size: 1.4em;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.search {
+  background-color: darkblue;
+  margin-right: auto;
+  flex: 5;
+  align-self: flex-start;
+}
+.home {
+  background-color: steelblue;
+  flex: 1;
+  align-self: flex-end;
+}
+.login {
+  background-color: violet;
+  margin-left: auto;
+  flex: 1;
+  align-self: center;
+}
+
+/*    */
+
+.container {
+  display: flex;
+  flex-direction: row; /*  به صورت پیشفرض  */
+  /* justify-content: space-around;   فاصله بین آیتم ها  */
+  /* justify-content: space-between;   فاصله بین آیتم ها  */
+  /*  align-items: stretch;    به صورت پیشفرض  */
+  /*  align-items: center;   */
+}
